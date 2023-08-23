@@ -28,19 +28,11 @@ $todoapp-catipult-light-theme: mat.define-light-theme((
   )
 ));
 
-$todoapp-catipult-dark-theme: mat.define-dark-theme((
-  color: (
-    primary: $todoapp-catipult-primary,
-    accent: $todoapp-catipult-accent,
-    warn: $todoapp-catipult-warn,
-  )
-));
+
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
 @include mat.all-component-themes($todoapp-catipult-light-theme);
 
-.dark-theme{
-    @include mat.all-component-themes($todoapp-catipult-dark-theme);
-}
+

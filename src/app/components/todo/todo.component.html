@@ -11,7 +11,6 @@
                 matInput
                 placeholder="Add Task"
               />
-              <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
             </mat-form-field>
           </form>
           <button *ngIf="!isEditEnabled" (click)="addTask()" mat-raised-button [disabled]="todoForm.invalid" color="primary" style="margin-top: -25px">

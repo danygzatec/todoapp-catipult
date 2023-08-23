@@ -9,11 +9,6 @@ const routes: Routes = [
     path: '',
     component: TodoComponent
   },
-  /*{
-    path: '',
-    pathMatch: 'full',
-    component: NavbarComponent,
-  }*/
 ];
 
 @NgModule({
