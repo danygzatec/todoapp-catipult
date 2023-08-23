@@ -10,12 +10,10 @@ import { ITask } from 'src/app/model/task';
 })
 export class TodoComponent implements OnInit { 
 
-//this will be defined in the future
   todoForm !: FormGroup;
   tasks : ITask[] = [];
   inProgress : ITask[] = [];
   done : ITask[] = [];
-  priorities : ITask[] = [];
   updateIndex: any;
   isEditEnabled: boolean = false;
 
