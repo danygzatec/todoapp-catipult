@@ -15,6 +15,7 @@ export class TodoComponent implements OnInit {
   tasks : ITask[] = [];
   inProgress : ITask[] = [];
   done : ITask[] = [];
+  priorities : ITask[] = [];
   updateIndex: any;
   isEditEnabled: boolean = false;
 
