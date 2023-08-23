@@ -1,18 +1,19 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LoginComponent } from './components/login/login.component';
-import { HomeComponent } from './components/home/home.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { TodoComponent } from './components/todo/todo.component';
+
 
 const routes: Routes = [
   {
-    path: 'login',
-    component: LoginComponent
+    path: '',
+    component: TodoComponent
   },
-  {
+  /*{
     path: '',
     pathMatch: 'full',
-    component: HomeComponent,
-  }
+    component: NavbarComponent,
+  }*/
 ];
 
 @NgModule({
